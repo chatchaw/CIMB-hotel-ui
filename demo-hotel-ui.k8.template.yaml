@@ -25,7 +25,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: prjcdemo
+  namespace: thdemo
   name: demo-hotel-ui
   labels:
     app: demo-hotel-ui
