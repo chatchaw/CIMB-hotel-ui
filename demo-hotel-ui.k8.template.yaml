@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  namespace: themo
+  namespace: thdemo
   name: demo-hotel-ui
   labels:
     app: demo-hotel-ui
