@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:10-alpine
 WORKDIR /apps
 ADD dist /apps/dist
 ADD server /apps/server
