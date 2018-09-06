@@ -40,7 +40,8 @@ podTemplate(label: 'my-pod',
       container('citools'){
         // sleep 3600
         sh "echo build docker image"
-        sh "rake -f build.rb docker:01_build_image docker:02_push_to_ICp_registry"
+        sh "rake -f build.rb docker:01_build_image"
+        sh "rake -f build.rb docker:02_push_to_ICp_registry"
       }
     }
 
